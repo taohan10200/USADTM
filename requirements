@@ -1,0 +1,9 @@
+torch==1.5.0
+torchvision==0.6.0
+tensorboardX
+tensorboard
+tensorflow
+easydict
+pandas
+numpy
+scipy
