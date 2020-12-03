@@ -74,7 +74,7 @@ Template Matching for Semi-Supervised Learning**. The code is developed based on
 ## Results
 After training, the metrics curves might be observed like this :
 
-  ![](images/40_acc_labeled.PNG)![](images/40_acc_overall.PNG)![](images/40_test_acc.PNG)
+  ![acc](./images/40_acc_labeled.PNG) ![acc_overall](./images/40_acc_overall.PNG) ![test_acc](./images/40_test_acc.PNG)
  
  
 
