@@ -4,8 +4,7 @@
 This repo is the official implementation of the paper of [USADTM](https://proceedings.neurips.cc/paper/2020/file/71a58e8cb75904f24cde464161c3e766-Paper.pdf):**Unsupervised Semantic Aggregation and Deformable
 Template Matching for Semi-Supervised Learning**. The code is developed based on [C^3 Framework](https://github.com/gjy3035/C-3-Framework). 
 
-![](images/framework.png )
-
+![framework](./images/framework.png "framework")
 
 
 # Quick Start
