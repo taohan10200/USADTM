@@ -2,7 +2,7 @@ from easydict import EasyDict as edict
 import time
 __C = edict()
 cfg = __C
-__C.dataset = 'CIFA10'   # 'CIFAR10' ,'CIFAR100', 'STL10', 'SVHN'
+__C.dataset = 'CIFAR10'   # 'CIFAR10' ,'CIFAR100', 'STL10', 'SVHN'
 
 __C.n_classes = 10
 __C.n_labeled = 250     #option: CIFAR10[40, 250,  4000]  CIFAR100[400,2500,10000] STL10, SVHN[40, 250,  1000]
