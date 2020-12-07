@@ -191,13 +191,11 @@ class Trainer():
                 matches.append(match)
         matches = torch.cat(matches, dim=0).float()
         acc = torch.mean(matches)
-        ema.restore()
 
         self.writer.add_scalar('val_acc', acc, self.epoch)
         self.train_record = update_model(ema.model, self.optimizer,self.lr_schdlr,self.epoch, self.i_tb,self.exp_path,self.exp_name,acc, self.train_record)
         print_summary(cfg.exp_name,acc, self.train_record)
-
-
+        ema.restore()
 
 if __name__ == '__main__':
 
