@@ -54,7 +54,7 @@ Template Matching for Semi-Supervised Learning**. The code is developed based on
 - To train the model, you should set the correct parameters in ```config.py```. In particular, the following parameters need to be confirmed:
 
     ```bash
-    __C.dataset = 'CIFA10'  # 'CIFAR10' ,'CIFAR100', 'STL10', 'SVHN'
+    __C.dataset = 'CIFAR10'  # 'CIFAR10' ,'CIFAR100', 'STL10', 'SVHN'
     __C.n_classes = 10
     __C.n_labeled = 250     # option: CIFAR10[40, 250,  4000]  CIFAR100[400,2500,10000] STL10, SVHN[40, 250,  1000]
     __C.batch_size = 64     # train batch size of labeled samples
