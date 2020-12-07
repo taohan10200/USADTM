@@ -40,6 +40,7 @@ class Trainer():
         self.train_record = {'best_acc1': 0, 'best_model_name': '','last_model_name': ''}
         self.cross_entropy = nn.CrossEntropyLoss().cuda()
         self.i_tb = 0
+        self.epoch = 0
         self.exp_name = cfg.exp_name
         self.exp_path = cfg.exp_path
         if cfg.resume:
