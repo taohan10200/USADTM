@@ -81,7 +81,7 @@ After training, the metrics curves might be observed like this :
 # Citation
 If you find this project is useful for your research, please cite:
 ```
-@article{han2020unsupervised,
+@inproceedings{han2020unsupervised,
   title={Unsupervised Semantic Aggregation and Deformable Template Matching for Semi-Supervised Learning},
   author={Han, Tao and Gao, Junyu and Yuan, Yuan and Wang, Qi},
   journal={Advances in Neural Information Processing Systems},
